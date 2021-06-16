@@ -1,0 +1,80 @@
+.displaylayout{
+    background-color: black;
+    background-image: url(images/bg-desktop-light.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bright{
+    background-color: white;
+    background-image: url(images/bg-desktop-dark.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.switchmode{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+main{
+    padding: 100px 250px 0px 250px;
+}
+
+.form-control:focus{
+    border-color: rgb(238, 150, 231);
+    box-shadow: 0 0 0 0.2rem rgb(182, 70, 182);
+}
+
+
+.bgcolor{
+    background-color: rgb(12, 32, 41) !important;
+}
+
+.ourmenu a, p, .listitem{
+    color: rgb(170, 169, 169);
+    font-weight: 700;
+}
+
+.listdiv li{
+    border-bottom: 2px solid rgb(170, 169, 169);
+    
+}
+
+.ourmenu a:hover:active{
+    color: blue;
+}
+
+.draggable {
+    cursor: move;
+    user-select: none;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.completed{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    main{
+        padding: 50px 100px 0px 100px;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+    main{
+        padding: 20px 20px 0px 20px;
+    }
+    
+}
